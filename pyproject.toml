@@ -1,0 +1,11 @@
+[project]
+name = "ops-center-mcp-server"
+version = "0.1.0"
+description = "MCP server for OPS Center using Python SDK and Google Sheets backend"
+requires-python = ">=3.10"
+
+[project.dependencies]
+mcp = { extras = ["cli"], version = "*" }
+gspread = "*"
+oauth2client = "*"
+pandas = "*"
